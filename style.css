@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: red;
+    overflow: hidden;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    color: black;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+nav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+.bur {
+    display: flex;
+    flex-wrap: wrap;
+    background-image: linear-gradient(45deg, rgba(255, 205, 4, 0.981), rgb(252, 4, 111));
+}
+.bgcolor{
+    background-image: linear-gradient(45deg, rgba(248, 224, 72, 0.981), rgb(250, 13, 116));
+    margin-left: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+.de {
+    width: 40%;
+}
+.bur1 {
+    display: flex;
+    flex-wrap: wrap;
+    background-color: white;
+}
+.back {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.imsi {
+    margin: 40px;
+    margin-left:120px;
+}
+.head{
+    margin-left: 150px;
+    margin-top: 20px;
+    font-size: 20pt;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.middile{
+    margin-left: 150px;
+    font-size: 50pt;
+    margin-top: 20px;
+        margin-right: 120px;
+}
+.end{
+    margin-left: 150px;
+}
+
+.last {
+   margin-top:40px; 
+}
+.s{
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.d {
+    text-align: center;
+    margin: 80px;
+    margin-left: 1px;
+    font-size: 35pt;
+    margin-bottom: 50px;
+    font-weight: 200px;
+}
+.m{
+    margin-left: 10%;
+}
+
+.di {
+    text-align: left;
+    margin-left: 80px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.b {
+    margin-left: 80px;
+    margin-top: 50px;
+    background-color: rgb(174, 41, 41);
+    height: 30px;
+    width: 200px;
+    color: white;
+    outline-style: none;
+}
+
+
+
+/* @media screen and (max-width: 600px) {
+    .content {
+        flex-direction: column;
+    }
+
+    .text,
+    .image {
+        max-width: 100%;
+    }
+} */
+@media screen and (max-width: 600px) {
+
+    .de,
+    .m {
+        width: 80%;
+        /* Adjust width for small screens */
+    }
+
+    .bgcolor {
+        margin: 5%;
+    }
+
+    .imsi,
+    .head,
+    .middile,
+    .end {
+        margin: 5%;
+    }
+
+    nav a {
+        padding: 10px 15px;
+        /* Adjust padding for smaller screens */
+    }
+}
+@media screen and (min-width: 601px) and (max-width: 768px) {
+
+    .de,
+    .m {
+        width: 70%;
+        /* Adjust width for tablets */
+    }
+
+    .bgcolor {
+        margin: 5%;
+    }
+
+    .imsi,
+    .head,
+    .middile,
+    .end {
+        margin: 5%;
+    }
+}
+@media screen and (min-width: 769px) {
+
+    .de,
+    .m {
+        width: 40%;
+        /* Adjust width for desktop screens */
+    }
+
+    .bgcolor {
+        margin: 10%;
+    }
+
+    .imsi,
+    .head,
+    .middile,
+    .end {
+        margin: 15%;
+    }
+}
